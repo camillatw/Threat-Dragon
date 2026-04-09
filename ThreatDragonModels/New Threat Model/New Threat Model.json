@@ -1,0 +1,26 @@
+{
+  "version": "2.6.1-RC1",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Camilla Thorenfeldt Wigstøl",
+    "description": "The Privacy-Enhanced Resort and Vacancy Online system is designed as a service-oriented architecture supporting guest booking, luxury service logistics, privacy-preserving identity management, billing, and physical security monitoring.\n\nThe system is divided into three primary data domains. First, a guest identity domain stores real guest information required for billing, legal obligations and identity verification. Second, an operational domain stores pseudonymized guest records used for bookings, room assignments, preferences and concierge services in order to preserve guest discretion. Third, a media domain stores surveillance footage and extracted facial metadata collected from cameras deployed across the resort premises.\n\nGuests and staff access the system through a booking and management web application, authenticated through an external identity provider. Internally, a pseudonymization service separates real identities from operational records. For physical security, surveillance cameras send video streams to a media database, where an AI-based face recognition service extracts face embeddings and forwards identity resolution requests to an identity resolver service. Authorized security staff can review alerts and footage through a monitoring dashboard.\n\nTrust boundaries exist between external users and internal services, between the core application services and the protected databases, between the surveillance infrastructure and the AI processing pipeline, and between the resort system and the external identity provider.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.1-RC1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Camilla Thorenfeldt Wigstøl",
+    "threatTop": 0
+  }
+}
