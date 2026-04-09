@@ -1391,9 +1391,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -1445,9 +1443,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2008,9 +2004,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2198,9 +2192,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2252,9 +2244,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2358,9 +2348,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2608afea-ec5a-4e2a-b3c4-afcfa68fb099"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -3154,23 +3142,23 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "3f724d4a-d37b-4370-aea8-fb1cac3b00f2",
-                "e3902be2-a3f8-41b1-aab7-31edea196fc4",
-                "ea49a6db-c7a3-4351-b8b1-00b62eee6871",
-                "24f1ff76-ef12-4b06-b1fe-253db4a4c99d",
-                "927012ab-ca16-4974-9bcc-5c3467703584",
-                "1c453e76-3c63-4027-bf5e-b1dcd75966ad"
-              ],
+              "crossingFlows": [],
               "containedElements": [
                 "f78db776-437c-4a4d-bb15-64a1c7881497",
                 "92230461-0d48-4ab5-9579-81bb64bede81",
                 "5d377778-7159-4dc3-b249-9e5d547cb996",
+                "42ae880d-69f0-49a4-82c5-90aadeccae27",
                 "3a2af539-20f6-443a-b4a8-122c6bd6564d",
                 "22c1486d-7827-45a4-bbd9-2b9d826be2ee",
                 "0ed9c699-5078-4e87-9611-c95b117b3a46",
                 "b8818963-5d3c-475b-9d3c-18b43ffe98dd",
+                "2575a470-425f-48ed-9010-41d02390feef",
+                "4f5120b6-0f2a-43b7-9478-5b649a652fb1",
+                "5d0b704b-e897-4d8c-bcbc-dc372a13137e",
+                "647c0de6-8a7d-4182-8c72-49670e8610a3",
+                "d294e80f-dd4d-427d-a73c-bd39e0419cde",
                 "90290542-ce4f-4e03-9793-735ed8b4660d",
+                "99ed723f-48c0-4f14-8977-fd64e3f92bf4",
                 "e61e5b07-491b-4c60-83b1-6f2337091a11"
               ]
             },
@@ -3183,8 +3171,8 @@
               "y": 220
             },
             "target": {
-              "x": 1120,
-              "y": 60
+              "x": 440,
+              "y": 690
             },
             "vertices": [
               {
@@ -3194,6 +3182,14 @@
               {
                 "x": 160,
                 "y": -110
+              },
+              {
+                "x": 400,
+                "y": -110
+              },
+              {
+                "x": 490,
+                "y": -170
               },
               {
                 "x": 570,
@@ -3208,8 +3204,16 @@
                 "y": -230
               },
               {
-                "x": 550,
-                "y": -230
+                "x": 820,
+                "y": -210
+              },
+              {
+                "x": 720,
+                "y": -130
+              },
+              {
+                "x": 1120,
+                "y": -30
               }
             ]
           }
