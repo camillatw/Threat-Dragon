@@ -979,8 +979,8 @@
           },
           {
             "position": {
-              "x": 46,
-              "y": 580
+              "x": 192.5,
+              "y": 360
             },
             "size": {
               "width": 90,
@@ -1309,7 +1309,40 @@
               "cell": "3a2af539-20f6-443a-b4a8-122c6bd6564d",
               "port": "9ac1cd62-7e2c-4e5c-bf70-88b930a7e0f1"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 90.75,
+                "y": 100
+              },
+              {
+                "x": 130,
+                "y": 80
+              },
+              {
+                "x": 170,
+                "y": 80
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -1970,7 +2003,12 @@
               "cell": "3a2af539-20f6-443a-b4a8-122c6bd6564d",
               "port": "6b6e178e-ba0c-4771-b343-235befdc9013"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 200,
+                "y": 0
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2304,7 +2342,12 @@
               "cell": "5d377778-7159-4dc3-b249-9e5d547cb996",
               "port": "b284c456-366b-4c3d-bc65-2c82cbeb42c4"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 360,
+                "y": -60
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2351,7 +2394,12 @@
               "cell": "3a2af539-20f6-443a-b4a8-122c6bd6564d",
               "port": "6b6e178e-ba0c-4771-b343-235befdc9013"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 220,
+                "y": -90
+              }
+            ]
           },
           {
             "position": {
@@ -2846,8 +2894,8 @@
           },
           {
             "position": {
-              "x": 265,
-              "y": 580
+              "x": 365,
+              "y": 510
             },
             "size": {
               "width": 120,
